@@ -13,7 +13,7 @@
           "sizes": "192x192"
         }
     ],
-    "start_url": "/coolors_pwa/",
+    "start_url": "https://coolors.co/",
     "lang": "en",
     "background_color": "#FFFFFF",
     "display": "standalone",
