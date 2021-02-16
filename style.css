@@ -41,4 +41,12 @@ body
     font-weight: bold;
     letter-spacing: 0.04em;
     box-shadow: 0 0 20px #0000003d;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.btn:hover
+{
+    background-color: #005eeb;
 }
