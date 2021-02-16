@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pwa test</title>
     <link rel="manifest" href="manifest.json">
+
+    <script>
+        window.addEventListener("load", function(){
+            if("serviceWorker" in navigator) {
+                navigator.serviceWorker.register("/coolors_pwa/sw.js");
+            };
+        })
+    </script>
 </head>
 <body>
     <h1>PWA coolors</h1>
     <button class="btn" style="display: none;">INSTALL COOLORS</button>
 
     <script src="script.js"></script>
-    <script src="sw.js"></script>
 </body>
 </html>
